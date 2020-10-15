@@ -1,0 +1,315 @@
+
+.box{
+	width: 260px;
+	height: 400px;
+	background-color: black;
+	position: absolute;
+	left: 50px;
+	top: 50px;
+	transition: height 1s linear;
+   
+}
+.box:hover {
+	background-color: blue;
+	height: 290px;
+}
+.white{
+	width: 15px;
+	height: 350px;
+	background-color: white;
+	position: absolute;
+	right: 100px;
+	left: 70px;
+	top: 100px;
+
+}
+
+.white2{
+	width: 220px;
+	height: 15px;
+	background-color: white;
+	position: absolute;
+	left: 70px;
+	top: 90px;
+   
+}
+.white22{
+	width: 95px;
+	height: 15px;
+	background-color: white;
+	position: absolute;
+	left: 70px;
+	top: 235px;
+}
+
+.white222{
+	width: 220px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	left: 101px;
+	top: 172px;
+	transform: rotate(-50deg);
+}
+.white3{
+	width: 15px;
+	height: 275px;
+	background-color: white;
+	position: absolute;
+	left: 171px;
+	top: 230px;
+    transform: rotate(160deg);
+}
+
+.box2{
+	width: 260px;
+	height: 400px;
+	background-color: black;
+	position: absolute;
+	top: 100px;
+    left: 330px;
+    transition: height 1s linear;
+
+ }
+
+.box2:hover {
+ 	background-color: yellow;
+ 	height: 299px;
+ }
+ 
+.white4{
+	width: 15px;
+	height: 359px;
+	background-color: white;
+	position: absolute;
+	right: 100px;
+	left: 355px;
+	top: 92px;
+    
+}
+.white5{
+	width: 15px;
+	height: 382px;
+	background-color: white;
+	position: absolute;
+	left: 420px;
+	top: 83px;
+    transform: rotate(160deg);
+   
+}
+.white6{
+	width: 15px;
+	height: 150px;
+	background-color: white;
+	position: absolute;
+	left: 405px;
+	top: 210px;
+    transform: rotate(90deg);
+}
+.box3 {
+	width: 260px;
+	height: 400px;
+	background-color: black;
+	position: absolute;
+	top: 50px;
+    left: 610px;
+    transition: height 1s linear;
+}
+.box3:hover {
+	background-color: red;
+	height: 290px;
+}
+.white7{
+	width: 15px;
+	height: 359px;
+	background-color: white;
+	position: absolute;
+	left: 630px;
+	top: 92px;
+ 
+
+}
+.white8{
+	width: 15px;
+	height: 400px;
+	background-color: white;
+	position: absolute;
+	left: 699px;
+	top: 83px;
+    transform: rotate(160deg);
+}
+.white9{
+	width: 15px;
+	height: 359px;
+	background-color: white;
+	position: absolute;
+	left: 770px;
+	top: 92px;
+    }
+.box4{
+	width: 260px;
+	height: 400px;
+	background-color: black;
+	position: absolute;
+	top: -4px;
+    left: 890px;
+    transition: height 1s linear;
+}
+.box4:hover {
+	background color: pink;
+	height: 290px;
+}
+.white10{
+	width: 15px;
+	height: 359px;
+	background-color: white;
+	position: absolute;
+	left: 915px;
+	top: 92px;
+    
+}
+.white11{
+	width: 15px;
+	height: 200px;
+	background-color: white;
+	position: absolute;
+	left: 1008px;
+	top: -2px;
+    transform: rotate(90deg);
+
+}
+.white12{
+	width: 15px;
+	height: 200px;
+	background-color: white;
+	position: absolute;
+	left: 1008px;
+	top: 290px;
+    transform: rotate(90deg);
+}
+.white13{
+	width: 15px;
+	height: 129px;
+	background-color: white;
+	position: absolute;
+	left: 1103px;
+	top: 269px;
+    
+}
+.white14{
+	width: 15px;
+	height: 151px;
+	background-color: white;
+	position: absolute;
+	left: 1035px;
+	top: 190px;
+    transform: rotate(90deg);
+}
+.box5{
+	width: 260px;
+	height: 400px;
+	background-color: black;
+	position: absolute;
+	top: 91px;
+    left: 1170px;
+    transition: height 1s linear;
+}
+.box5:hover {
+	background-color: green;
+	height: 294px;
+}
+.white15{
+    width: 15px;
+	height: 305px;
+	background-color: white;
+	position: absolute;
+	left: 1207px;
+	top: 92px;
+}
+.white16{
+	width: 15px;
+	height: 200px;
+	background-color: white;
+	position: absolute;
+	left: 1300px;
+	top: -2px;
+    transform: rotate(90deg);
+}
+.white17{
+		width: 15px;
+	height: 200px;
+	background-color: white;
+	position: absolute;
+	left: 1300px;
+	top: 290px;
+    transform: rotate(90deg);
+
+}
+.white18{
+		width: 15px;
+	height: 200px;
+	background-color: white;
+	position: absolute;
+	left: 1300px;
+	top: 170px;
+    transform: rotate(90deg);
+}
+.box6{
+	width: 260px;
+	height: 400px;
+	background-color: black;
+	position: absolute;
+	top: 50px;
+    left: 1450px;
+    transition: height 1s linear;
+}
+.box6:hover {
+	background-color: purple;
+	height: 290px;
+}
+.white19{
+	width: 15px;
+	height: 200px;
+	background-color: white;
+	position: absolute;
+	left: 1532px;
+	top: 92px;
+	transform: rotate(20deg); 
+ 
+}
+.white20{
+	width: 15px;
+	height: 170px;
+	background-color: white;
+	position: absolute;
+	left: 1600px;
+	top: 15px;
+    transform: rotate(90deg);
+}
+.white21{
+    width: 15px;
+	height: 200px;
+	background-color: white;
+	position: absolute;
+	left: 1591px;
+	top: 181px;
+    transform: rotate(90deg);
+}
+.white23{
+     width: 15px;
+	height: 200px;
+	background-color: white;
+	position: absolute;
+	left: 1630px;
+	top: 270px;
+	transform: rotate(20deg); 
+}
+.white24{
+	width: 15px;
+	height: 200px;
+	background-color: white;
+	position: absolute;
+	left: 1570px;
+	top: 345px;
+    transform: rotate(90deg);
+}
