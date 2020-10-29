@@ -1,0 +1,83 @@
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height:100vh;
+	background-color: black;
+	background-image: url("holiday.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+h1{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 130px;
+	position: absolute;
+	bottom: 200px;
+	left: 100px;
+
+}
+
+.date{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 35px;
+	position: absolute;
+	bottom: 125px;
+	left: 810px;
+}
+.text{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 15px;
+	position: absolute;
+	bottom: 125px;
+	left:150px;
+}
+.box{
+	width: 17px;
+	height: 210px;
+	background-color: white;
+	position: absolute;
+	bottom:0px;
+    left: 110px;
+}
+
+@media (max-width: 375px) {
+	h1{
+		font-size: 63px;
+		left: 26px;
+		top: 5px;
+		color: white;
+
+	}
+	.background {
+		background-image: url("art.jpg");
+	}
+	.box {
+		width: 10px;
+		height: 350px;
+		background-color: white;
+		position: absolute;
+		bottom: 0px;
+		left: 30px;
+		background-color: white;
+	}
+	.date {
+		font-size: 18px;
+		left: 48px;
+		top: 315px;
+		color: white;
+		
+	}
+	.text {
+		font-size: 11px;
+		left: 48px;
+		top: 540px;
+		color: white;
+		
+	}
+
+}
