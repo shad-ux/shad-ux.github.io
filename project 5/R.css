@@ -1,0 +1,116 @@
+.topbox {
+	 width:1450px;
+		height: 30px;
+		background-color: orange;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+}
+
+.bottombox {
+	    width:1450px;
+		height: 24px;
+		background-color: lightgrey;
+		position: absolute;
+		top: 30px;
+		left: 0px;
+}
+.H {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+	font-size: 12px;
+	position: absolute;
+	top: 35px;
+	left: 30px;
+
+}
+.H:hover {
+color: white;
+}
+.R {
+	font-family: 'Roboto', sans-serif;
+    color: black;
+	font-size: 12px;
+	position: absolute;
+	top: 35px;
+	left: 150px;
+}
+.R:hover {
+color: white;
+}
+.S{
+	font-family: 'Roboto', sans-serif;
+    color: black;
+	font-size: 12px;
+	position: absolute;
+	top: 35px;
+	left: 270px;
+}
+.S:hover {
+color: white;
+}
+.D {
+font-family: 'Roboto', sans-serif;
+    color: black;
+	font-size: 12px;
+	position: absolute;
+	top: 35px;
+	left: 390px;
+}
+.D:hover {
+color: white;
+}
+.M{
+	font-family: 'Bebas Neue', cursive;
+	color: black;
+	font-size: 20px;
+	position: absolute;
+    top: 5px;
+	left: 30px;
+}
+.M:hover {
+	color: white;
+}
+.beyonce{
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	top:150px;
+	left: 190px;
+}
+.beyonce:hover {
+transform: scale(1.3);
+}
+
+.freetown {
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	top:450px;
+	left: 190px;
+}
+.freetown:hover {
+transform: scale(1.3);
+}
+
+.alicia{
+	width: 250px;
+	height: 250;
+	position: absolute;
+	top:150px;
+	left: 800px;
+}
+.alicia:hover {
+transform: scale(1.3);
+}
+
+.maxwell{
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	top:450px;
+    left: 800px;
+}
+.maxwell:hover {
+transform: scale(1.3);
+}

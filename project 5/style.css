@@ -1,0 +1,122 @@
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height:100vh;
+	background-color: black;
+	background-image: url("b.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+h1 {
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+	font-size: 141px;
+	position: absolute;
+	bottom: 500px;
+	left: 100px;
+}
+h2{
+	font-family: 'Archivo Narrow', sans-serif;
+	color: white;
+	font-size: 46px;
+	position: absolute;
+	bottom: 530px;
+	left: 100px;
+}
+.box1{
+	    width: 20px;
+		height: 250px;
+		background-color: white;
+		position: absolute;
+		bottom: 364px;
+		left: 620px;
+		
+}
+.box2{
+	    width:1450px;
+		height: 30px;
+		background-color: orange;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		
+}
+.circle1 {
+	width: 380px;
+	height:380px;
+	background-color: white;
+	position: absolute;
+	border-radius: 50%;
+	bottom:50px;
+	left:443px;
+	display: inline-block;
+}
+.H{
+	font-family: 'Bebas Neue', cursive;
+	color: orange;
+	font-size: 55px;
+	position: absolute;
+	bottom: 215px;
+	right: 280px;
+
+}
+.circle2 {
+	width: 300px;
+	height:300px;
+	background-color: white;
+	position: absolute;
+	border-radius: 50%;
+	top:100px;
+	right:320px;
+	display: inline-block;
+}
+.S{
+	font-family: 'Bebas Neue', cursive;
+	color: orange;
+	font-size: 55px;
+	position: absolute;
+	top: 220px;
+	right: 425px;
+}
+.circle3 {
+	width: 250px;
+	height:250px;
+	background-color: white;
+	position: absolute;
+	border-radius: 50%;
+	bottom:270px;
+	left:130px;
+	display: inline-block;
+}
+.D{
+	font-family: 'Bebas Neue', cursive;
+	color: orange;
+	font-size: 55px;
+	position: absolute;
+	bottom: 220px;
+	left: 550px;
+}
+
+.circle4 {
+	width: 200px;
+	height:200px;
+	background-color: white;
+	position: absolute;
+	border-radius: 50%;
+	bottom:140px;
+	right:245px;
+	display: inline-block;
+}
+
+
+.R{
+	font-family: 'Bebas Neue', cursive;
+	color: orange;
+	font-size: 55px;
+	position: absolute;
+	bottom: 370px;
+	left: 215px;
+}
