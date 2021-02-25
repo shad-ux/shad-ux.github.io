@@ -1,0 +1,104 @@
+.box1 {
+	position: absolute;
+	top: 100px;
+	left: 400px;
+	width: 100px;
+	height: 100px;
+	background-color: rgb(20, 180, 400);
+	animation-name: anim1;
+	animation-duration: 1000ms;
+	animation-iteration-count: infinite;
+}
+
+.box2 {
+	position: absolute;
+	top: 100px;
+	left: 530px;
+	width: 100px;
+	height: 100px;
+	background-color: rgb(20, 180, 400);
+	animation-name: anim1;
+	animation-duration: 60s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+.box4 {
+	position: absolute;
+	top: 100px;
+	left: 660px;
+	width: 100px;
+	height: 100px;
+	background-color: rgb(20, 180, 400);
+	animation-name: anim1;
+	animation-duration: 3600s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+.box3 {
+	position: absolute;
+	top: 300px;
+	left: 450px;
+	width: 200px;
+	height: 50px;
+	background-color: rgb(40, 40, 40);
+	border-radius: 25px;
+	animation-name: anim1;
+	opacity: 0;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	font-family: Helvetica;
+}
+@keyframes anim1 {
+	0% {
+      height: 100px;
+	}
+
+	100%{
+   height: 600px;
+	}
+}
+
+.box1.alarm {
+	background-color: rgb( 200, 10, 15);
+	animation-name: spinalarm;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+}
+.box2.alarm{
+	background-color: rgb( 200, 10, 15);
+		animation-name: spinalarm;
+		animation-duration: 2s;
+		animation-timing-function: linear;
+		}
+
+.box4.alarm{
+	background-color: rgb( 200, 10, 15);
+		animation-name: spinalarm;
+		animation-duration: 2s;
+		animation-timing-function: linear;
+		}
+
+.box3.alarm{
+opacity: 1;
+}
+
+@keyframes spinalarm{
+	0%{
+		transform: rotate(0deg) scale(1);
+		background-color: rgb(200, 10, 15);
+		
+	}
+	50%{
+		transform: rotate(180deg) scale(2);
+		background-color: rgb(200, 10, 25);
+		
+	}
+	100%{
+		transform: rotate(360deg) sclae(1);
+		background-color: rgb(200, 10, 15);
+		
+	}
+}
